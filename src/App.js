@@ -1,3 +1,6 @@
+import "./index.css";
+import FriendList from "./FriendList";
+
 const initialFriends = [
   {
     id: 118836,
@@ -20,7 +23,13 @@ const initialFriends = [
 ];
 
 function App() {
-  return <div></div>;
+  return (
+    <div className="app">
+      <div className="sidebar">
+        <FriendList friends={initialFriends} />
+      </div>
+    </div>
+  );
 }
 
 export default App;
