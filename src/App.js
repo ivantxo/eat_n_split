@@ -1,5 +1,7 @@
 import "./index.css";
 import FriendList from "./FriendList";
+import FormAddFriend from "./FormAddFriend";
+import Button from "./Button";
 
 const initialFriends = [
   {
@@ -27,6 +29,8 @@ function App() {
     <div className="app">
       <div className="sidebar">
         <FriendList friends={initialFriends} />
+        <Button>Add friend</Button>
+        <FormAddFriend />
       </div>
     </div>
   );
