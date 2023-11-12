@@ -2,6 +2,7 @@ import "./index.css";
 import FriendList from "./FriendList";
 import FormAddFriend from "./FormAddFriend";
 import Button from "./Button";
+import FormSplitBill from "./FormSplitBill";
 
 const initialFriends = [
   {
@@ -32,6 +33,7 @@ function App() {
         <Button>Add friend</Button>
         <FormAddFriend />
       </div>
+      <FormSplitBill />
     </div>
   );
 }
